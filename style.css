@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.car-image {
+  margin-left: -7rem;
+  width: 6rem;
+  padding: 1rem;
+}
+.card-title {
+  font-family: "Big Shoulders Display", cursive;
+  width: 200px;
+  color: hsl(0, 0%, 95%);
+  margin-left: 0.5rem;
+}
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.85rem;
+  width: 200px;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin: 1.5rem;
+  line-height: 1.5rem;
+}
+.card-container {
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.card-one {
+  background-color: hsl(31, 77%, 52%);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.card-two {
+  background-color: hsl(184, 100%, 22%);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.card-three {
+  background-color: hsl(179, 100%, 13%);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.card-button-one {
+  width: 6rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: (0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+}
+.card-button-two {
+  width: 6rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+}
+.card-button-three {
+  width: 6rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+}
